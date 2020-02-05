@@ -33,11 +33,11 @@
 	margin-bottom: 20px;
 }
 
-ul.features-list {
+ul.features-list, ul.benefit-list {
 	list-style-type: none;
 	padding: 0; }
 
-	ul.features-list li::before {
+	ul.features-list li::before, ul.benefit-list::before {
 		content: "\25E6";
 		color: #56A5DF;
 		font-size: 1.1em;
@@ -51,6 +51,19 @@ ul.features-list {
 .section-feature-tournaments-payments {
 	background: linear-gradient(180deg, #A1DFFF 0%, #F5FBFD 100%);
 }
+
+.benefit {
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 6px 7px rgba(0, 0, 0, 0.06); }
+
+	.benefit h3.benefit-title {
+		display: inline-block;
+		background: #4997CF;
+		padding: 6px 22px;
+		font-size: 1.25em;
+		color: #fff;
+		border-radius: 3px;
+	}
 
 footer {}
 
@@ -91,7 +104,11 @@ footer {}
 	box-shadow: 0px 15px 20px 5px rgba(0, 80, 255, 0.06);
 }
 
-.partner-with-us {
-	background: #56A1D8;
-	border-radius: 20px;
+.download h3 {
+	font-size: 1.25em;	
 }
+
+	.partner-with-us {
+		background: #56A1D8;
+		border-radius: 20px;
+	}
