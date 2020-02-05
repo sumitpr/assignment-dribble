@@ -1,0 +1,97 @@
+.section-main {
+	background: url("../images/icon-pattern.png");
+	background-size: cover; }
+
+	.icon-app {
+		max-width: 150px;
+		margin: 0 5px;
+	}
+
+	.navbar-light .navbar-nav .nav-link {
+		color: rgba(0, 0, 0, 0.7);
+	}
+
+.content {  }
+
+	.content h2 {
+		font-size: 1.4em;
+	}
+
+	.content p {
+		font-size: 0.9em;
+	}
+
+	.content ul li {
+		font-size: 0.9em;
+	}
+
+.separator-sm {
+	display: block;
+	height: 4px;
+	width: 10%;
+	background: #67BAF5;
+	margin-bottom: 20px;
+}
+
+ul.features-list {
+	list-style-type: none;
+	padding: 0; }
+
+	ul.features-list li::before {
+		content: "\25E6";
+		color: #56A5DF;
+		font-size: 1.1em;
+	}
+
+
+.section-feature-report {
+	background: linear-gradient(180deg, #A1DFFF 0%, #F5FBFD 100%);
+}
+
+.section-feature-tournaments-payments {
+	background: linear-gradient(180deg, #A1DFFF 0%, #F5FBFD 100%);
+}
+
+footer {}
+
+	footer ul {
+		list-style-type: none;
+	}
+		footer ul li::first-letter {
+			text-transform: uppercase;
+		}
+
+		footer ul li.list-head {
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+
+	footer span .social-icons {
+		display: block !important;
+	}
+
+	footer .social-icons a {
+		margin: 0 5px;
+	}
+
+.app-icon-container {
+	border: 1px solid #56A1D8;
+	border-radius: 20px;
+}
+
+.download h3::first-letter {
+	text-transform: uppercase;
+}
+
+.shadow-light-dark {
+	box-shadow: 0px 15px 20px 5px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-light-blue {
+	box-shadow: 0px 15px 20px 5px rgba(0, 80, 255, 0.06);
+}
+
+.partner-with-us {
+	background: #56A1D8;
+	border-radius: 20px;
+}
